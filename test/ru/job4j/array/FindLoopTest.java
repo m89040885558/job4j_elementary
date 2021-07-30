@@ -34,13 +34,13 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenFind7() {
+    public void whenEloutofRange() {
         int[] data = new int[] {5, 7, 9, 2, 4};
         int el = 5;
         int start = 1;
         int finish = 3;
         int result = FindLoop.indexOf(data, el, start, finish);
-        int expected = 0;
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 
