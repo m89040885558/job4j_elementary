@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.loop;
 
 public class InfinityLoop {
     public static void main(String[] args) {

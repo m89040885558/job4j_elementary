@@ -13,12 +13,12 @@ public class MathFunc {
     }
 
     public static void main(String[] args) {
-        int result1 = MathFunc.func1(3);
-        int result2 = MathFunc.func2(5);
-        int result3 = MathFunc.func1(100);
-        int total = result1 + result2;
+        int rst1 = MathFunc.func1(3);
+        int rst2 = MathFunc.func2(5);
+        int rst3 = MathFunc.func1(100);
+        int total = rst1 + rst2;
         System.out.println(total);
-        total = result3;
+        total = rst3;
         System.out.println(total);
     }
 }

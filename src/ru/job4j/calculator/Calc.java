@@ -1,6 +1,6 @@
 package ru.job4j.calculator;
 
-public class Calculator {
+public class Calc {
 
     public static void main(String[] args) {
         int one = 1;

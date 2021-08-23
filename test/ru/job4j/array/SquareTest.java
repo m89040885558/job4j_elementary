@@ -7,7 +7,7 @@ public class SquareTest {
     @Test
     public void whenBound3Then014() {
         int bound = 3;
-        int[] result = Square.calculate(bound);
+        int[] result = Square.calc(bound);
         int[] expected = new int[] {0, 1, 4};
         Assert.assertArrayEquals(expected, result);
     }
@@ -15,7 +15,7 @@ public class SquareTest {
     @Test
     public void whenBound3Then015() {
         int bound = 5;
-        int[] result = Square.calculate(bound);
+        int[] result = Square.calc(bound);
         int[] expected = new int[] {0, 1, 4, 9, 16};
         Assert.assertArrayEquals(expected, result);
     }

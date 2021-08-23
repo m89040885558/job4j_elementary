@@ -37,7 +37,6 @@ public class MatrixCheck {
                 if (board[i][i] == 'X' && (monoHorizontal(board, i) || monoVertical(board, i))) {
                         result = true;
                         break;
-
                 }
             }
             return result;

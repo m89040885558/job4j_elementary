@@ -1,7 +1,7 @@
 package ru.job4j.array;
 
 public class Square {
-    public static int[] calculate(int bound) {
+    public static int[] calc(int bound) {
         int[] rst = new int[bound];
         for (int index = 0; index < bound; index++) {
                   rst[index] = (int) Math.pow(index, 2);
@@ -10,7 +10,7 @@ public class Square {
     }
 
     public static void main(String[] args) {
-        int[] array = calculate(4);
+        int[] array = calc(4);
         for (int index = 0; index < array.length; index++) {
             System.out.println(array[index]);
         }
