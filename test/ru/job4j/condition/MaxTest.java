@@ -32,6 +32,7 @@ public class MaxTest {
         Assert.assertEquals(result, expected);
     }
 */
+
     @Test
     public void whenMax3To2To3() {
         int a = 3;
